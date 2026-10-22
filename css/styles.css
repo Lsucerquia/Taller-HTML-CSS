@@ -1,0 +1,157 @@
+* {
+    margin:0;
+    padding: 0;
+}
+nav {
+    background-color: #155a9a;
+    padding: 10px;
+    height: 60px;
+}
+
+.container-enlaces {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+}
+
+a {
+    color: #f3eaea;
+    font-size: 30px;
+    font-weight: 50px;
+    margin-right: 0 10px;
+    text-decoration: none;
+}
+
+header {
+    background-color: #507da7;
+    padding: 60px;
+}
+
+h1 {
+    color: #f3eaea;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 30px;
+
+}
+
+ .articulo {
+    width: 80%;
+    margin: auto;
+    padding:20px;
+}
+
+.subtitulo {
+    color: #0e0e0e;
+    font-size: 30px;
+    font-weight: 50;
+}
+   
+
+.container-texto {
+    font-size: 20px;
+    font-weight: 500;
+    color: #545455;
+    padding: 10px;   
+}
+
+.imagen {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+   
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+form {
+    background-color: #dbe1e8;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-top: 5px;
+}
+
+fieldset {
+    padding: 20px;
+    background-color: #dbe1e8;
+    border-radius: 5px;
+}
+
+.formulario-titulo h2 {
+    color: #04315d;
+    font-size: 28px;
+    font-weight: 200px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    color: #04182c;
+    font-size: 20px;
+    font-weight: 300px;
+    margin-bottom: 5px;
+}
+
+input {
+    width:100%;
+    padding: 12px 15px;
+    font-size: 15px;
+    border-radius: 9px;
+    box-sizing: border-box;
+    border: none;
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+button[type="submit"] {
+    background-color: #344fbb;
+    color: #dbe1e8;
+}
+
+button[type="reset"] {
+    background-color: #717583;
+    color: #dbe1e8;
+}
+
+
+table {
+    width: 100%;
+    border-radius: collapse;
+    font-family: system-ui,sans-serif;
+}
+
+.encabezado-tabla {
+    background-color: #070b1d;
+    height: 50px;
+    color: #dbe1e8;
+}
+
+th, td {
+    padding: auto;
+    margin: 50px;
+}
+
+
+.container-footer {
+    background-color: #db7db1;
+    padding: 20px;
+    height: 100px;
+}
+
+.footer-parrafo{
+    color: #4a4b4c;
+    font-size: 30px;
+    font-weight: 50px;
+    text-align: center;
+}
